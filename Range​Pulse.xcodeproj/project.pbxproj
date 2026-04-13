@@ -6,43 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		46C63B4E2F890C4E00D07E46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46C63B362F890C4C00D07E46 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46C63B3D2F890C4C00D07E46;
-			remoteInfo = Trackman;
-		};
-		46C63B582F890C4E00D07E46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46C63B362F890C4C00D07E46 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46C63B3D2F890C4C00D07E46;
-			remoteInfo = Trackman;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		46C63B3E2F890C4C00D07E46 /* Trackman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackman.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		46C63B4D2F890C4E00D07E46 /* TrackmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46C63B572F890C4E00D07E46 /* TrackmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C63B3E2F890C4C00D07E46 /* Range​Pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Range​Pulse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		46C63B402F890C4C00D07E46 /* Trackman */ = {
+		46C63B402F890C4C00D07E46 /* Range​Pulse */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Trackman;
-			sourceTree = "<group>";
-		};
-		46C63B502F890C4E00D07E46 /* TrackmanTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TrackmanTests;
-			sourceTree = "<group>";
-		};
-		46C63B5A2F890C4E00D07E46 /* TrackmanUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TrackmanUITests;
+			path = "Range​Pulse";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -55,29 +26,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46C63B4A2F890C4E00D07E46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46C63B542F890C4E00D07E46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		46C63B352F890C4C00D07E46 = {
 			isa = PBXGroup;
 			children = (
-				46C63B402F890C4C00D07E46 /* Trackman */,
-				46C63B502F890C4E00D07E46 /* TrackmanTests */,
-				46C63B5A2F890C4E00D07E46 /* TrackmanUITests */,
+				46C63B402F890C4C00D07E46 /* Range​Pulse */,
 				46C63B3F2F890C4C00D07E46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +40,7 @@
 		46C63B3F2F890C4C00D07E46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46C63B3E2F890C4C00D07E46 /* Trackman.app */,
-				46C63B4D2F890C4E00D07E46 /* TrackmanTests.xctest */,
-				46C63B572F890C4E00D07E46 /* TrackmanUITests.xctest */,
+				46C63B3E2F890C4C00D07E46 /* Range​Pulse.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		46C63B3D2F890C4C00D07E46 /* Trackman */ = {
+		46C63B3D2F890C4C00D07E46 /* Range​Pulse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46C63B612F890C4E00D07E46 /* Build configuration list for PBXNativeTarget "Trackman" */;
+			buildConfigurationList = 46C63B612F890C4E00D07E46 /* Build configuration list for PBXNativeTarget "Range​Pulse" */;
 			buildPhases = (
 				46C63B3A2F890C4C00D07E46 /* Sources */,
 				46C63B3B2F890C4C00D07E46 /* Frameworks */,
@@ -108,60 +61,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				46C63B402F890C4C00D07E46 /* Trackman */,
+				46C63B402F890C4C00D07E46 /* Range​Pulse */,
 			);
-			name = Trackman;
+			name = "Range​Pulse";
 			packageProductDependencies = (
 			);
 			productName = Trackman;
-			productReference = 46C63B3E2F890C4C00D07E46 /* Trackman.app */;
+			productReference = 46C63B3E2F890C4C00D07E46 /* Range​Pulse.app */;
 			productType = "com.apple.product-type.application";
-		};
-		46C63B4C2F890C4E00D07E46 /* TrackmanTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46C63B642F890C4E00D07E46 /* Build configuration list for PBXNativeTarget "TrackmanTests" */;
-			buildPhases = (
-				46C63B492F890C4E00D07E46 /* Sources */,
-				46C63B4A2F890C4E00D07E46 /* Frameworks */,
-				46C63B4B2F890C4E00D07E46 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46C63B4F2F890C4E00D07E46 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				46C63B502F890C4E00D07E46 /* TrackmanTests */,
-			);
-			name = TrackmanTests;
-			packageProductDependencies = (
-			);
-			productName = TrackmanTests;
-			productReference = 46C63B4D2F890C4E00D07E46 /* TrackmanTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		46C63B562F890C4E00D07E46 /* TrackmanUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46C63B672F890C4E00D07E46 /* Build configuration list for PBXNativeTarget "TrackmanUITests" */;
-			buildPhases = (
-				46C63B532F890C4E00D07E46 /* Sources */,
-				46C63B542F890C4E00D07E46 /* Frameworks */,
-				46C63B552F890C4E00D07E46 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46C63B592F890C4E00D07E46 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				46C63B5A2F890C4E00D07E46 /* TrackmanUITests */,
-			);
-			name = TrackmanUITests;
-			packageProductDependencies = (
-			);
-			productName = TrackmanUITests;
-			productReference = 46C63B572F890C4E00D07E46 /* TrackmanUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -176,17 +83,9 @@
 					46C63B3D2F890C4C00D07E46 = {
 						CreatedOnToolsVersion = 26.3;
 					};
-					46C63B4C2F890C4E00D07E46 = {
-						CreatedOnToolsVersion = 26.3;
-						TestTargetID = 46C63B3D2F890C4C00D07E46;
-					};
-					46C63B562F890C4E00D07E46 = {
-						CreatedOnToolsVersion = 26.3;
-						TestTargetID = 46C63B3D2F890C4C00D07E46;
-					};
 				};
 			};
-			buildConfigurationList = 46C63B392F890C4C00D07E46 /* Build configuration list for PBXProject "Trackman" */;
+			buildConfigurationList = 46C63B392F890C4C00D07E46 /* Build configuration list for PBXProject "Range​Pulse" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,29 +99,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				46C63B3D2F890C4C00D07E46 /* Trackman */,
-				46C63B4C2F890C4E00D07E46 /* TrackmanTests */,
-				46C63B562F890C4E00D07E46 /* TrackmanUITests */,
+				46C63B3D2F890C4C00D07E46 /* Range​Pulse */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		46C63B3C2F890C4C00D07E46 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46C63B4B2F890C4E00D07E46 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46C63B552F890C4E00D07E46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46C63B492F890C4E00D07E46 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46C63B532F890C4E00D07E46 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		46C63B4F2F890C4E00D07E46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 46C63B3D2F890C4C00D07E46 /* Trackman */;
-			targetProxy = 46C63B4E2F890C4E00D07E46 /* PBXContainerItemProxy */;
-		};
-		46C63B592F890C4E00D07E46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 46C63B3D2F890C4C00D07E46 /* Trackman */;
-			targetProxy = 46C63B582F890C4E00D07E46 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		46C63B5F2F890C4E00D07E46 /* Debug */ = {
@@ -407,7 +263,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = trackman.dk.Trackman;
+				PRODUCT_BUNDLE_IDENTIFIER = rangepulse.dk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -438,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = trackman.dk.Trackman;
+				PRODUCT_BUNDLE_IDENTIFIER = rangepulse.dk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -450,90 +306,10 @@
 			};
 			name = Release;
 		};
-		46C63B652F890C4E00D07E46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = trackman.dk.TrackmanTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trackman.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trackman";
-			};
-			name = Debug;
-		};
-		46C63B662F890C4E00D07E46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = trackman.dk.TrackmanTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trackman.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trackman";
-			};
-			name = Release;
-		};
-		46C63B682F890C4E00D07E46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = trackman.dk.TrackmanUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Trackman;
-			};
-			name = Debug;
-		};
-		46C63B692F890C4E00D07E46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = trackman.dk.TrackmanUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Trackman;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46C63B392F890C4C00D07E46 /* Build configuration list for PBXProject "Trackman" */ = {
+		46C63B392F890C4C00D07E46 /* Build configuration list for PBXProject "Range​Pulse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46C63B5F2F890C4E00D07E46 /* Debug */,
@@ -542,29 +318,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46C63B612F890C4E00D07E46 /* Build configuration list for PBXNativeTarget "Trackman" */ = {
+		46C63B612F890C4E00D07E46 /* Build configuration list for PBXNativeTarget "Range​Pulse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46C63B622F890C4E00D07E46 /* Debug */,
 				46C63B632F890C4E00D07E46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46C63B642F890C4E00D07E46 /* Build configuration list for PBXNativeTarget "TrackmanTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46C63B652F890C4E00D07E46 /* Debug */,
-				46C63B662F890C4E00D07E46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46C63B672F890C4E00D07E46 /* Build configuration list for PBXNativeTarget "TrackmanUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46C63B682F890C4E00D07E46 /* Debug */,
-				46C63B692F890C4E00D07E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

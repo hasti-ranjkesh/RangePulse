@@ -1,6 +1,6 @@
 //
-//  TrackmanApp.swift
-//  Trackman
+//  Range​PulseApp.swift
+//  Range​Pulse
 //
 //  Created by Hasti on 10/04/2026.
 //
@@ -9,10 +9,9 @@ import SwiftUI
 import SwiftData
 
 @main
-struct TrackmanApp: App {
+struct Range​PulseApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +24,7 @@ struct TrackmanApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ShotListView(viewModel: ShotsViewModel(bleManager: BLEManager()))
         }
         .modelContainer(sharedModelContainer)
     }
