@@ -15,17 +15,24 @@ final class ShotsViewModel: ObservableObject {
 
     let bleManager: BLEServiceProvider
     var cancellable: Set<AnyCancellable> = []
+    private var task: Task<Void, Never>?
 
     init(bleManager: BLEServiceProvider) {
         self.bleManager = bleManager
-        startListening()
+
+        // Choose one of the following methods to start listening to simulated Bluetooth data:
+        // - startListeningWithAsyncStream()
+        // - startListeningWithCombine()
+        startListeningWithAsyncStream()
     }
 
     deinit {
+        task?.cancel()
         cancellable.forEach { $0.cancel() }
     }
 
-    func startListening() {
+    // 1. Uses Combine.
+    func startListeningWithCombine() {
         isLoading = true
 
         bleManager.shotPublisher
@@ -46,5 +53,18 @@ final class ShotsViewModel: ObservableObject {
                 shots.insert(shot, at: 0)
             }
             .store(in: &cancellable)
+    }
+
+    // 2. Uses AsyncStream-based approach.
+    func startListeningWithAsyncStream() {
+        isLoading = true
+        task = Task {
+            for await shot in bleManager.streamShots() {
+                await MainActor.run {
+                    isLoading = false
+                    shots.insert(shot, at: 0)
+                }
+            }
+        }
     }
 }

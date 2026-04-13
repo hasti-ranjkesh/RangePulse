@@ -9,11 +9,12 @@ import Foundation
 import Combine
 
 protocol BLEServiceProvider {
-    //    func streamShots() async -> AsyncStream<Shot> // modern Swift
     var shotPublisher: AnyPublisher<Shot, Error> { get }
     func stopBLESimulation()
+    func streamShots() -> AsyncStream<Shot>
 }
 
+// Provides two implementations for streaming Bluetooth data: AsyncStream and Combine.
 final class BLEManager: BLEServiceProvider {
     private let shotSubject = PassthroughSubject<Shot, Error>()
     private var simulationTask: Task<Void, Never>?
@@ -44,5 +45,23 @@ final class BLEManager: BLEServiceProvider {
 
     func stopBLESimulation() {
         simulationTask?.cancel()
+    }
+
+    func streamShots() -> AsyncStream<Shot> {
+        AsyncStream { continuation in
+            let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
+                let shot = Shot(
+                    speed: Double.random(in: 100...300),
+                    distance: Double.random(in: 0...1000)
+                )
+                continuation.yield(shot)
+            }
+
+            // If Timer never stops it causes memory leak.
+            // When view disappears, the timer should stop.
+            continuation.onTermination = { @Sendable _ in
+                timer.invalidate()
+            }
+        }
     }
 }
