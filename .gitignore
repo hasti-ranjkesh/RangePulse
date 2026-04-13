@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Xcode user data
+*.xcuserstate
+xcuserdata/
+
+# Xcode workspace user settings
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Build products
+build/
+DerivedData/
+Products/
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Archives
+*.xcarchive
+
+# App bundles
+*.app
